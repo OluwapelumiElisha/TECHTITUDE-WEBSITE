@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/br-firma" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/TECHTITUDE LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/formRegistration.css">
+    <title>Form Registration</title>
+    <link rel="shortcut icon" href="./Images/TECHTITUDE LOGO.png" type="image/x-icon">
+    <!-- <script defer src="./Landing Page.js"></script> -->
+</head>
+
+<body>
+    <!-- logo section -->
+<section class="section1">
+ <div class="logoHolder">
+     <img src="./Images/TECHTITUDE LOGO.png" alt="TECHTITUDE LOGO">
+ </div>
+</section>
+      <!-- form section -->
+<section class="section2"> 
+    <div>
+        <h3>Techtitude Academy</h3>
+        <p>COURSE REGISTRATION</p>
+           <!-- form Acedemy -->
+        <form action="" id="formAcedemy">
+        <label for="full">Full Name</label><br>
+        <input type="text" placeholder="E.g. Daniel" id="full">
+        <label for="last">Last Name</label><br>
+        <input type="text" placeholder="E.g. Olabanji" id="last">
+        <label for="email">Email Address</label><br>
+        <input type="email" placeholder="E.g. daniel.olabanji@gmail.com" id="email">
+        <label for="numbs">Phone Number</label><br>
+        <input type="number" placeholder="E.g. 09012345678" id="numbs">
+        <label for="dateOf">Date of Birth</label><br>
+        <input type="date" id="dateOf" placeholder="MM/DD/YYYY">
+        <label for="">Courses Interested in</label><br>
+        <div class="CoursesInt">
+           <input type="radio" name="Courses" id="business"><label for="" id="COURSE">Business Analysis</label><br>
+           <input type="radio" name="Courses" id="business"><label for="" id="COURSE">Data Analytics</label><br>
+           <input type="radio" name="Courses" id="business"><label for="" id="COURSE">Cyber Security</label><br>
+           <input type="radio" name="Courses" id="business"><label for="" id="COURSE">UI/UX Design</label><br>
+        </div>
+        <label for="special">Any special Requirements or requests</label>
+        <input type="text" id="special" placeholder="You Answer">
+        <label for="">Any special Requirements or requests</label><br>
+        <div class="Hearing">
+           <input type="radio" name="About" id="about"><label for="" id="Hear">Friends</label><br>
+           <input type="radio" name="About" id="about"><label for="" id="Hear">Websites</label><br>
+           <input type="radio" name="About" id="about"><label for="" id="Hear">Social Media</label><br>
+           <input type="radio" name="About" id="about"><label for="" id="Hear">Others:</label><br>
+        </div>
+        <a href="./paymentGateWay.html"><button id="but" onclick="but()">Submit</button></a>
+
+        </form>
+    </div>
+</section>
+</body>
+</html>

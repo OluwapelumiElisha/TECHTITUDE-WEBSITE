@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECHTITUDE WEBSITE</title>
+  <link rel="stylesheet" href="./css/Landing Page.css">
+  <link rel="shortcut icon" href="./Images/TECHTITUDE LOGO.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/br-firma" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #D9CFDD;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 85%;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- BEGINING OF HEADER  -->
+  <Header>
+    <nav>
+      <img src="./Images/TECHTITUDE LOGO.png" alt="TECHTITUDE LOGO">
+      <ul>
+        <li>ABOUT US</li>
+        <li><a href="#course"> COURSES</a></li>
+        <li><a href="#instru">INSTRUCTORS</a></li>
+        <li><a href="#test"> TESTIMONIALS</a></li>
+        <li><a href="./Blog.html">BLOG</a></li>
+        <li>BROCHURE <img src="./Images/DOWNLOAD ICON.png" alt="ICON"></li>
+        <li><a href="./formRegistration.html"><button>SIGN UP NOW</button></a></li>
+      </ul>
+      <!-- <button>gggg</button> -->
+      <img src="./Images/Group 41.png" alt="" id="menu" onclick="Menu()">
+    </nav>
+  </Header>
+  <!-- END OF HEADER  -->
+  <div class="menuclick" id="menuclick" hidden>
+    <ul>
+      <li onclick="list()"><a href="#test">TESTIMONIALS</a></li>
+      <li onclick="list()"><a href="#course">COURSES</a></li>
+      <li onclick="list()"><a href="#instru">INSTRUCTORS</a></li>
+      <li onclick="list()"><a href="./formRegistration.html"><button>SIGN UP NOW</button></a></li>
+    </ul>
+  </div>
+  <!-- HERO SECTION  -->
+  <section class="Hero">
+    <div class="main">
+      <div class="word">
+        <h1>UpSkill Yourself <span>with</span> TECHTITUDE</h1> <br>
+        <div class="empower">
+          <p>We empower <span>WOMEN</span> with the topical skills and knowledge to become tech leaders.
+        </div> <br>
+        <a href="./formRegistration.html"><button>SIGN UP NOW</button></a> <br> 
+      </div>
+      <div class="picture">
+        <img src="./Images/LADY.png" alt="">
+      </div>
+    </div>
+    <!-- NORMAL SCREEN  -->
+    <section class="benefit">
+      <div class="first">
+        <div class="cirlce"></div>
+        <h6>Benefit Title</h6>
+        <p>Benefit Explanation in full details why tech courses should be taken.</p>
+      </div>
+      <div class="second">
+        <div class="cirlce"></div>
+        <h6>Benefit Title</h6>
+        <p>Benefit Explanation in full details why tech courses should be taken.</p>
+      </div>
+      </div>
+      <div class="third">
+        <div class="cirlce"></div>
+        <h6>Benefit Title</h6>
+        <p>Benefit Explanation in full details why tech courses should be taken.</p>
+      </div>
+      </div>
+      <div class="fourth">
+        <div class="cirlce"></div>
+        <h6>Benefit Title</h6>
+        <p>Benefit Explanation in full details why tech courses should be taken.</p>
+      </div>
+      </div>
+      <div class="fifth">
+        <div class="cirlce"></div>
+        <h6>Benefit Title</h6>
+        <p>Benefit Explanation in full details why tech courses should be taken.</p>
+      </div>
+      </div>
+
+    </section>
+  </section>
+  <!-- MOBILE SCREEN   -->
+  <div class="swiper mySwiper" id="side">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="first">
+          <div class="cirlce"></div>
+          <h6>Benefit</h6>
+          <p>Benefit Explanation in full details why tech courses should be taken.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="second">
+          <div class="cirlce"></div>
+          <h6>Benefit</h6>
+          <p>Benefit Explanation in full details why tech courses should be taken.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="third">
+          <div class="cirlce"></div>
+          <h6>Benefit</h6>
+          <p>Benefit Explanation in full details why tech courses should be taken.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="fourth">
+          <div class="cirlce"></div>
+          <h6>Benefit</h6>
+          <p>Benefit Explanation in full details why tech courses should be taken.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="fifth">
+          <div class="cirlce"></div>
+          <h6>Benefit</h6>
+          <p>Benefit Explanation in full details why tech courses should be taken.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- BEGINING OF SECTION ONE  -->
+  <section class="section1">
+    <h2 id="test">TESTIMONIALS</h2>
+    <h1>What some of our Trainees have to say about us!</h1>
+
+    <!-- NORMAL SCREEN FOR BOX  -->
+
+    <div class="box">
+      <div class="first">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>This is my first ever training in my journey into tech, but it definitely was worth it. I say this because I
+          had tried studying on my own for months with not much progress, but coming across this training gave me a good
+          feel of what this area of life truly entails. <br>Thank you for having me, and expect me back in another
+          cohort (the essence of this is accountability).</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4> 
+        </div>
+      </div>
+      <div class="second">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>For a training that is 100% practical, this was really good. I really can't thank Ingressive for Good and the
+          Zuri Team enough. Keep helping willing minds. <br> <br> THANK YOU SO MUCH!</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+        </div>
+      </div>
+      <div class="third">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>This is my first ever training in my journey into tech, but it definitely was worth it. I say this because I
+          had tried studying on my own for months with not much progress, but coming across this training gave me a good
+          feel of what this area of life truly entails. <br>Thank you for having me, and expect me back in another
+          cohort (the essence of this is accountability).</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+        </div>
+      </div>
+      <div class="fourth">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>For a training that is 100% practical, this was really good. I really can't thank Ingressive for Good and the
+          Zuri Team enough. Keep helping willing minds. <br> <br> THANK YOU SO MUCH!</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+        </div>
+      </div>
+      <div class="fifth">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>For a training that is 100% practical, this was really good. I really can't thank Ingressive for Good and the
+          Zuri Team enough. Keep helping willing minds. <br> <br> THANK YOU SO MUCH!</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+        </div>
+      </div>
+      <div class="sixth">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>This is my first ever training in my journey into tech, but it definitely was worth it. I say this because I
+          had tried studying on my own for months with not much progress, but coming across this training gave me a good
+          feel of what this area of life truly entails. <br>Thank you for having me, and expect me back in another
+          cohort (the essence of this is accountability).</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+        </div>
+      </div>
+      <div class="seventh">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>For a training that is 100% practical, this was really good. I really can't thank Ingressive for Good and the
+          Zuri Team enough. Keep helping willing minds. <br> <br> THANK YOU SO MUCH!</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+        </div>
+      </div>
+      <div class="eight">
+        <img src="./Images/Component 2.png" alt="Stars">
+        <p>This is my first ever training in my journey into tech, but it definitely was worth it. I say this because I
+          had tried studying on my own for months with not much progress, but coming across this training gave me a good
+          feel of what this area of life truly entails. <br>Thank you for having me, and expect me back in another
+          cohort (the essence of this is accountability).</p>
+        <div>
+          <img src="./Images/Rectangle 18.png" alt="Rectangle">
+          <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+        </div>
+      </div>
+    </div>
+    <!-- MOBILE SCREEN FOR BOX  -->
+    <div class="swiper mySwiper" id="side">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="one">
+              <img src="./Images/Component 2.png" alt="Stars">
+              <h5>Hello Techtitude,</h5>
+              <p>While waiting for my fiancé visa to be approved in America, my husband suggested that I take the Business Analysis course. I am thrilled to share that I now work for one of the top 4 companies in America. I am truly grateful for your outstanding training and support. You guys are the best! I am excited to spread the word about Techtitude and recommend your services to everyone I know. <br> <br>Thank you once again!</p>
+              <div>
+                <img src="./Images/Rectangle 18.png" alt="Rectangle">
+                <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="two">
+            <img src="./Images/Component 2.png" alt="Stars">
+            <h5>Hello Techtitude,</h5>
+            <p>While waiting for my fiancé visa to be approved in America, my husband suggested that I take the Business Analysis course. I am thrilled to share that I now work for one of the top 4 companies in America. I am truly grateful for your outstanding training and support. You guys are the best! I am excited to spread the word about Techtitude and recommend your services to everyone I know. <br> <br>Thank you once again!</p>
+            <div>
+              <img src="./Images/Rectangle 18.png" alt="Rectangle">
+              <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="three">
+            <img src="./Images/Component 2.png" alt="Stars">
+            <h5>Hello Techtitude,</h5>
+            <p>While waiting for my fiancé visa to be approved in America, my husband suggested that I take the Business Analysis course. I am thrilled to share that I now work for one of the top 4 companies in America. I am truly grateful for your outstanding training and support. You guys are the best! I am excited to spread the word about Techtitude and recommend your services to everyone I know. <br> <br>Thank you once again!</p>
+            <div>
+              <img src="./Images/Rectangle 18.png" alt="Rectangle">
+              <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="four">
+            <img src="./Images/Component 2.png" alt="Stars">
+            <h5>Hello Techtitude,</h5>
+            <p>While waiting for my fiancé visa to be approved in America, my husband suggested that I take the Business Analysis course. I am thrilled to share that I now work for one of the top 4 companies in America. I am truly grateful for your outstanding training and support. You guys are the best! I am excited to spread the word about Techtitude and recommend your services to everyone I know. <br> <br>Thank you once again!</p>
+            <div>
+              <img src="./Images/Rectangle 18.png" alt="Rectangle">
+              <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="five">
+            <img src="./Images/Component 2.png" alt="Stars">
+            <h5>Hello Techtitude,</h5>
+            <p>While waiting for my fiancé visa to be approved in America, my husband suggested that I take the Business Analysis course. I am thrilled to share that I now work for one of the top 4 companies in America. I am truly grateful for your outstanding training and support. You guys are the best! I am excited to spread the word about Techtitude and recommend your services to everyone I know. <br> <br>Thank you once again!</p>
+            <div>
+              <img src="./Images/Rectangle 18.png" alt="Rectangle">
+              <h4>Adejare Adegoke <br> <span>Product Design - Lagos</span></h4>
+            </div>
+        </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+                              <!-- END OF SECTION ONE  -->
+                              <!-- BEGINING OF SECTION TWO  -->
+  <section class="section2">
+      <h4 id="course">COURSES</h4>
+      <h3>UpSkill yourself in any of these.</h3>
+      <div class="courses">
+        <div class="Data"> 
+          <div class="div">
+            <div class="images">
+              <img src="./Images/EXCEL LOGO.png" alt="">
+              <img src="./Images/AIRTABLE LOGO.png" alt="">
+              <img src="./Images/POWER BI LOGO.png" alt="">
+              <img src="./Images/PHTHON LOGO.png" alt="">
+             </div>
+            <div class="courseinfo">
+                <h4>Data Analytics </h4> 
+                <p>Data Analysis will  help you differentiate yourself from other information technology and research workers who lack the same specialized knowledge as you. During your job search, you may have more job opportunities to pursue or qualify for more specialized positions.</p>  <br>
+                <button>Enroll Now!</button>
+                <button class="down">Download Brochure</button> <br> <br> <br>
+            </div>
+          </div>
+        </div>
+        <div class="Business"> 
+        <div class="div">
+            <div class="images">
+              <img src="./Images/EXCEL LOGO.png" alt="">
+              <img src="./Images/AIRTABLE LOGO.png" alt="">
+              <img src="./Images/POWER BI LOGO.png" alt="">
+              <img src="./Images/PHTHON LOGO.png" alt="">
+             </div>
+          <div class="courseinfo">
+              <h4>Business Analysis</h4> 
+              <p>Business Analysis will  help you differentiate yourself from other information technology and research workers who lack the same specialized knowledge as you. During your job search, you may have more job opportunities to pursue or qualify for more specialized positions</p>  <br>
+              <button>Enroll Now!</button>
+              <button class="down">Download Brochure</button>
+          </div>
+        </div>
+      </div>
+      <div class="Cyber"> 
+        <div class="div">
+          <div class="images">
+            <img src="./Images/BITFINDER LOGO 1.png" alt=""> 
+            <img src="./Images/image 1.png" alt="" class="two">
+          </div>
+          <div class="courseinfo">
+              <h4>Cyber Security </h4> 
+              <p>Data Analysis will  help you differentiate yourself from other information technology and research workers who lack the same specialized knowledge as you. During your job search, you may have more job opportunities to pursue or qualify for more specialized positions</p>  <br>
+              <button>Enroll Now!</button>
+              <button class="down">Download Brochure</button>
+          </div>
+        </div>
+      </div>
+      <div class="UI"> 
+        <div class="div">
+         <div class="images">
+          <img src="./Images/FIGMA LOGO 1.png" alt="">
+          <img src="./Images/pngwing 1.png" alt="">
+         </div>
+          <div class="courseinfo">
+              <h4>UI/UX Design</h4> 
+              <p>Learn the skills to create visually appealing and user-friendly interfaces. Our UI/UX Design track will teach you the principles of design, user research, wireframing, prototyping, and more. You'll gain practical experience by completing a variety of tasks.</p>  <br>
+              <button>Enroll Now!</button>
+              <button class="down">Download Brochure</button> <br> <br>
+          </div>
+        </div>
+      </div>
+      <div class="Scrum"> 
+        <div class="div">
+          <div class="images">
+            <img src="./Images/Trello-Emblem.png" alt="">
+            <img src="./Images/MNDY-d18a458f.png" alt="">
+            <img src="./Images/6299f743b04c5ae587c4119d.png" alt="">
+            <img src="./Images/Asana-Symbol.png" alt="">
+           </div>
+          <div class="courseinfo">
+              <h4>Scrum</h4> 
+              <p>Data Analysis will  help you differentiate yourself from other information technology and research workers who lack the same specialized knowledge as you. During your job search, you may have more job opportunities to pursue or qualify for more specialized positions</p> <br>
+                <button>Enroll Now!</button>
+              <button class="down">Download Brochure</button>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+                              <!-- END OF SECTION TWO  -->
+                              <!-- BEGINING OF SECTION THREE  -->
+  <section class="section3">
+      <h4 id="instru">INSTRUCTORS</h4> 
+      <h3>Meet the Techtitude Faculties.</h3>
+      <div class="instruction">
+          <div class="Both">
+              <img src="./Images/PICTURE FRAME.png" alt="">
+              <div class="detail">
+                <p><small>Olatubsun Jeremiah </small></p>
+                <p class="second"><span>Course:</span>Product Design</p> <br>
+                <p class="third"> <small>A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. <br> <br> A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are.</small></p>
+              </div>
+          </div>
+          <div class="Both2">
+            <img src="./Images/PICTURE FRAME.png" alt="">
+            <div class="detail">
+              <p><small>Olatubsun Jeremiah </small></p>
+              <p class="second"><span>Course:</span>Product Design</p> <br>
+              <p class="third"> <small>A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. <br> <br> A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are.</small></p>
+              <button>ABOUT ME!</button> <br>
+            </div>
+        </div>
+        <div class="Both2">
+          <img src="./Images/PICTURE FRAME.png" alt="">
+          <div class="detail">
+            <p><small>Olatubsun Jeremiah </small></p>
+            <p class="second"><span>Course:</span>Product Design</p> <br>
+            <p class="third"> <small>A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. <br> <br> A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are.</small></p>
+            <button>ABOUT ME!</button> <br>
+          </div>
+      </div>
+      <div class="Both2">
+        <img src="./Images/PICTURE FRAME.png" alt="">
+        <div class="detail">
+          <p><small>Olatubsun Jeremiah </small></p>
+          <p class="second"><span>Course:</span>Product Design</p> <br>
+          <p class="third"> <small>A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. <br> <br> A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are.</small></p>
+          <button>ABOUT ME!</button> <br>
+        </div>
+    </div>
+    <div class="Both2">
+      <img src="./Images/PICTURE FRAME.png" alt="">
+      <div class="detail">
+        <p><small>Olatubsun Jeremiah </small></p>
+        <p class="second"><span>Course:</span>Product Design</p> <br>
+        <p class="third"> <small>A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are. <br> <br> A personal biography is a concise introduction that provides a summarized version of your professional accomplishments, your credentials and education, and other information that makes you who you are.</small></p>
+        <button>ABOUT ME!</button> <br>
+      </div>
+  </div>
+      </div>
+  </section>
+                               <!-- END OF SECTION THREE  -->
+                               <!-- BEGINING OF SECTION FOUR  -->
+  <section class="section4">
+      <h3 id="blog">BLOGS</h3>
+      <h4>You definitely need to read from other <br>TechSis</h4>
+      <div class="blogs">
+        <div class="first">
+           <img src="./Images/Rectangle 52.png" alt="">
+           <h5>How i started my journey as <br> a Product Management.</h5> 
+           <p>Diary of a #TechSis <span>Thur. April 13, 2023 </span></p>
+           <p class="five">Five years ago, I felt lost. I switched industries and roles a few times (from finance to media, from stock analyst to content manager), but nothing stuck. I decided to take an entry-level contractor job at Facebook while I studied for the GRE and applied to graduate school.</p>
+           <button>Read More</button> <br> <br>
+        </div>
+        <div class="second">
+          <img src="./Images/Rectangle 53.png" alt="">
+          <h5>How i started my journey as <br> a Product Management.</h5> 
+           <p>Diary of a #TechSis <span>Thur. April 13, 2023 </span></p>
+           <p class="five">Five years ago, I felt lost. I switched industries and roles a few times (from finance to media, from stock analyst to content manager), but nothing stuck. I decided to take an entry-level contractor job at Facebook while I studied for the GRE and applied to graduate school.</p>
+           <button>Read More</button> <br> <br>
+        </div>
+        <div class="third">
+          <img src="./Images/Rectangle 52.png" alt="">
+          <h5>How i started my journey as <br> a Product Management.</h5> 
+           <p>Diary of a #TechSis <span>Thur. April 13, 2023 </span></p>
+           <p class="five">Five years ago, I felt lost. I switched industries and roles a few times (from finance to media, from stock analyst to content manager), but nothing stuck. I decided to take an entry-level contractor job at Facebook while I studied for the GRE and applied to graduate school.</p>
+           <button>Read More</button> <br> <br>
+        </div>
+      </div>
+  </section>
+                              <!-- END OF SECTION FOUR  -->
+                              <!-- BEGINING OF FOOTER  -->
+  <footer>
+      <div class="footer">
+        <img src="./Images/TECHTITUDE LOGO WHITE.png" alt="TECHTITUDE LOGO WHITE">
+        <div class="company">
+          <h4>COMPANY</h4>
+          <ul>
+            <li>About Us</li>
+            <li>How it Works</li>
+            <li>FAQ</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="course">
+          <h4>COURSES</h4>
+          <ul>
+            <li>Scrum</li>
+            <li>UI/UX Design</li>
+            <li>Data Analysis</li>
+            <li>Cyber Security</li>
+            <li>Business Analysis</li>
+          </ul>
+        </div>
+        <div class="resource">
+          <h4>RESOURCES</h4>
+          <ul>
+            <li>Podcast </li>
+            <li>Youtube Playlist</li>
+            <li>Blogs</li>
+          </ul>
+        </div>
+        <div class="like">
+          <p>Like to receive our Newsletter?</p>
+          <div class="input">
+              <input type="email" placeholder="Enter your Email Here">
+              <button>Subscribe</button> 
+          </div><br>
+          <img src="./Images/Vector.png" alt="">
+        </div>
+        
+      </div>
+      <div class="line"></div>
+      <p>TECHTITUDE © 2023 - All Right reserved!</p> <br> <br> <br>
+  </footer>
+                                        <!-- MOBILE SCREEN  -->
+  <div class="mobile" >
+    <div class="submobile">
+      <img src="./Images/TECHTITUDE LOGO WHITE.png" alt="">
+      <div class="word">
+        <h4>COMPANY</h4>
+        <h4>COURSES</h4>
+        <h4>RESOURCES</h4>
+      </div>
+      <p class="p">7 Adedotun Dina, Mende, Maryland, Lagos - Nigeria. <br> admin@techtitude.org <br>09063940977</p>
+      <div class="like">
+        <p>Like to receive our Newsletter?</p>
+        <div class="input">
+            <input type="email" placeholder="Enter your Email Here">
+            <button>Subscribe</button> 
+        </div><br>
+        <img src="./Images/Vector.png" alt="">
+      </div>
+        <div class="line"></div>
+  <p>TECHTITUDE © 2023 - All Right reserved!</p> <br> <br> <br>
+  </div>
+    </div>
+</div>
+
+
+
+
+
+
+                              <!-- END OF FOOTER  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="./Landing Page.js"></script>
+<html>

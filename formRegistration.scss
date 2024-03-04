@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BR Firma', sans-serif;
+}
+
+.section1{
+    width: 100%;
+    background-color: #F0C20C;
+    height: 212px;
+    border: thin solid #F0C20C;
+    .logoHolder{
+        width: 80%;
+        margin: 78px auto;
+    }
+ 
+}  
+.section2{
+        width: 100%;
+        height: 1464px;
+        background-color:  #37014F;
+        div{
+            width: 80%;
+            height: 200px;
+            margin: auto;
+            padding-top: 20px;
+        }
+        h3{
+            font-size: 48px;
+            font-weight: 700;
+            color: white;
+        }
+            p{
+                color: #37014F;
+                width: 320px;
+                height: 52px;
+                background-color: #F0C20C;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 700;
+                padding-top: 12px;
+                border-radius: 10px;
+            }
+            #formAcedemy{
+                margin-top: 30px;
+                label{
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                input{
+                    width: 100%;
+                    padding: 12px;
+                    border: thin solid #F0C20C;
+                    border-radius: 6px;
+                    margin-bottom: 40px;
+                }
+            .CoursesInt{
+                width: 100%;
+                height: 220px;
+                background: white;
+                border-radius: 6px;
+                text-align: left;
+                line-height: 45px;
+                margin-bottom: 40px;
+                #business{
+                    margin-left: -47%;
+                    margin-bottom: 0;
+                }
+                #COURSE{
+                    color: #333333;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-left: -47%;
+ 
+                }
+            }
+            .Hearing{
+                width: 100%;
+                height: 220px;
+                background: white;
+                border-radius: 6px;
+                text-align: left;
+                line-height: 45px;
+                margin-bottom: 40px;
+                #about{
+                    margin-left: -47%;
+                    margin-bottom: 0;
+                }
+                #Hear{
+                    color: #333333;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-left: -47%;
+ 
+                }
+            }
+            #but{
+                width: 139px;
+                height: 37px;
+                border-radius: 6px;
+                background-color: #F0C20C;
+                border: none;
+                font-size: 18px;
+                color: #37014F;
+                font-weight: 700;
+            }
+    }
+}
+
+@media(max-width:588px){
+    .section2{
+        width: 100%;
+        height: 1494px;
+        background-color:  #37014F;
+        div{
+            width: 80%;
+            height: 200px;
+            margin: auto;
+            padding-top: 20px;
+        }
+        h3{
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+        }
+            p{
+                color: #37014F;
+                width: 215px;
+                height: 36px;
+                background-color: #F0C20C;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 700;
+                padding-top: 12px;
+                border-radius: 6px;
+            }
+            #formAcedemy{
+                margin-top: 30px;
+                label{
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                input{
+                    width: 100%;
+                    padding: 12px;
+                    border: thin solid #F0C20C;
+                    border-radius: 6px;
+                    margin-bottom: 40px;
+                }
+            .CoursesInt{
+                width: 100%;
+                height: 220px;
+                background: white;
+                border-radius: 6px;
+                text-align: left;
+                line-height: 45px;
+                margin-bottom: 40px;
+                #business{
+                    margin-left: -47%;
+                    margin-bottom: 0;
+                }
+                #COURSE{
+                    color: #333333;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-left: -47%;
+ 
+                }
+            }
+            .Hearing{
+                width: 100%;
+                height: 220px;
+                background: white;
+                border-radius: 6px;
+                text-align: left;
+                line-height: 45px;
+                margin-bottom: 40px;
+                #about{
+                    margin-left: -47%;
+                    margin-bottom: 0;
+                }
+                #Hear{
+                    color: #333333;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-left: -47%;
+ 
+                }
+            }
+            #but{
+                width: 87px;
+                height: 30px;
+                border-radius: 6px;
+                background-color: #F0C20C;
+                border: none;
+                font-size: 18px;
+                color: #37014F;
+                font-weight: 700;
+            }
+    }
+}
+
+}

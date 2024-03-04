@@ -1,0 +1,617 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BR Firma", sans-serif;
+}
+
+.parent {
+  border: thin solid #37014F;
+  width: 100%;
+  background-color: #37014F;
+}
+.parent .child {
+  margin: 150px auto;
+  border: thin solid white;
+  background-color: white;
+  width: 70%;
+  height: 578px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.parent .child .box1 {
+  width: 60%;
+  height: inherit;
+  background-color: #D9CFDD;
+  border-radius: inherit;
+  border: thin solid #D9CFDD;
+}
+.parent .child .box1 .details {
+  width: 100%;
+  border: thin solid rgba(217, 207, 221, 0);
+  margin-left: 30px;
+  margin-top: 50px;
+  line-height: 80px;
+}
+.parent .child .box1 .details .pay {
+  color: #37014F;
+  font-size: 20px;
+  font-weight: 700;
+}
+.parent .child .box1 .details hr {
+  border: thin solid rgba(56, 1, 79, 0.662745098);
+  width: 80%;
+}
+.parent .child .box1 .details span {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+.parent .child .box2 {
+  width: 100%;
+}
+.parent .child .box2 .box2a {
+  margin-left: -30%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+.parent .child .box2 .box2a img {
+  width: 55px;
+  height: 58px;
+}
+.parent .child .box2 .box2a .daniel {
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 35%;
+  width: 100%;
+}
+.parent .child .box2 .box2a .daniel strong {
+  color: #37014F;
+}
+.parent .child .box2 .enter {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 85px;
+  margin-left: -5%;
+}
+.parent .child .box2 .card {
+  border: 0.8px solid #37014F;
+  width: 120%;
+  height: 90px;
+  border-radius: 6px;
+  margin-left: -30%;
+  margin-top: 40px;
+}
+.parent .child .box2 .card .cardNumber {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.parent .child .box2 .card .zero {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333333;
+  padding-left: 20px;
+  padding-top: 15px;
+  border: thin solid white;
+  background-color: rgba(255, 255, 255, 0);
+}
+.parent .child .box2 .card .zero:focus {
+  outline: none;
+}
+.parent .child .box2 .two {
+  width: 120%;
+  height: 90px;
+  border-radius: 6px;
+  margin-left: -30%;
+  margin-top: 40px;
+  display: flex;
+  gap: 10%;
+}
+.parent .child .box2 .two .twoA {
+  border: 0.8px solid #37014F;
+  width: 50%;
+  height: 90px;
+  border-radius: 6px;
+}
+.parent .child .box2 .two .twoA .zero {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+  padding-left: 20px;
+  padding-top: 15px;
+  border: none;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+.parent .child .box2 .two .twoA .zero:focus {
+  outline: none;
+}
+.parent .child .box2 .two .twoB {
+  border: 0.8px solid #37014F;
+  width: 50%;
+  height: 90px;
+  border-radius: 6px;
+}
+.parent .child .box2 .two .twoB .zero {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+  padding-left: 20px;
+  padding-top: 15px;
+  border: none;
+  width: 100%;
+}
+.parent .child .box2 .two .twoB .zero:focus {
+  outline: none;
+}
+.parent .child .box2 .two p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.parent .child .box2 #payButton {
+  width: 120%;
+  height: 66px;
+  background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+  margin-left: -30%;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+.parent .secure {
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  background-color: #37014F;
+}
+.parent .secure .paysta {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.parent .secure .paysta strong {
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+}
+.parent .secure .also {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  line-height: 25px;
+}
+
+@media (max-width: 863px) {
+  .parent {
+    border: thin solid #37014F;
+    width: 100%;
+    height: 1024px;
+    background-color: #37014F;
+  }
+  .parent .child {
+    margin: 150px auto;
+    border: thin solid white;
+    background-color: white;
+    width: 98%;
+    height: 578px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .parent .child .box1 {
+    width: 60%;
+    height: inherit;
+    background-color: #D9CFDD;
+    border-radius: inherit;
+    border: thin solid #D9CFDD;
+  }
+  .parent .child .box1 .details {
+    width: 100%;
+    border: thin solid rgba(217, 207, 221, 0);
+    margin-left: 10px;
+    margin-top: 50px;
+    line-height: 80px;
+  }
+  .parent .child .box1 .details .pay {
+    color: #37014F;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .parent .child .box1 .details hr {
+    border: thin solid rgba(56, 1, 79, 0.662745098);
+    width: 80%;
+  }
+  .parent .child .box1 .details span {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 5%;
+  }
+  .parent .child .box2 {
+    width: 100%;
+  }
+  .parent .child .box2 .box2a {
+    margin-left: -30%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+  }
+  .parent .child .box2 .box2a img {
+    width: 55px;
+    height: 58px;
+  }
+  .parent .child .box2 .box2a .daniel {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 35%;
+    width: 100%;
+  }
+  .parent .child .box2 .box2a .daniel strong {
+    color: #37014F;
+  }
+  .parent .child .box2 .enter {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 85px;
+    margin-left: -5%;
+  }
+  .parent .child .box2 .card {
+    border: 0.8px solid #37014F;
+    width: 120%;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: -30%;
+    margin-top: 40px;
+  }
+  .parent .child .box2 .card .cardNumber {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .parent .child .box2 .card .zero {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  .parent .child .box2 .two {
+    width: 120%;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: -30%;
+    margin-top: 40px;
+    display: flex;
+    gap: 10%;
+  }
+  .parent .child .box2 .two .twoA {
+    border: 0.8px solid #37014F;
+    width: 50%;
+    height: 90px;
+    border-radius: 6px;
+  }
+  .parent .child .box2 .two .twoB {
+    border: 0.8px solid #37014F;
+    width: 50%;
+    height: 90px;
+    border-radius: 6px;
+  }
+  .parent .child .box2 .two p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .parent .child .box2 #payButton {
+    width: 120%;
+    height: 66px;
+    background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+    margin-left: -30%;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+  }
+}
+@media (max-width: 595px) {
+  .parent {
+    border: thin solid #37014F;
+    width: 100%;
+    height: 1024px;
+    background-color: #37014F;
+  }
+  .parent .child {
+    margin: 150px auto;
+    border: thin solid white;
+    background-color: white;
+    width: 98%;
+    height: 578px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .parent .child .box1 {
+    width: 50%;
+    height: inherit;
+    background-color: #D9CFDD;
+    border-radius: inherit;
+    border: thin solid #D9CFDD;
+  }
+  .parent .child .box1 .details {
+    width: 100%;
+    border: thin solid rgba(217, 207, 221, 0);
+    margin-top: 50px;
+    line-height: 60px;
+  }
+  .parent .child .box1 .details .pay {
+    color: #37014F;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .parent .child .box1 .details hr {
+    border: thin solid rgba(56, 1, 79, 0.662745098);
+    width: 50%;
+  }
+  .parent .child .box1 .details span {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 2%;
+  }
+  .parent .child .box1 .details span #myicon {
+    display: none;
+  }
+  .parent .child .box2 {
+    width: 100%;
+  }
+  .parent .child .box2 .box2a {
+    margin-left: -30%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+  }
+  .parent .child .box2 .box2a img {
+    width: 45px;
+    height: 48px;
+  }
+  .parent .child .box2 .box2a .daniel {
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 20%;
+    width: 100%;
+  }
+  .parent .child .box2 .box2a .daniel strong {
+    color: #37014F;
+  }
+  .parent .child .box2 .enter {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 85px;
+  }
+  .parent .child .box2 .card {
+    border: 0.8px solid #37014F;
+    width: 120%;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: -30%;
+    margin-top: 40px;
+  }
+  .parent .child .box2 .card .cardNumber {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .parent .child .box2 .card .zero {
+    font-size: 10px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  .parent .child .box2 .two {
+    width: 120%;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: -30%;
+    margin-top: 40px;
+    display: flex;
+    gap: 10%;
+  }
+  .parent .child .box2 .two .twoA {
+    border: 0.8px solid #37014F;
+    width: 50%;
+    height: 90px;
+    border-radius: 6px;
+  }
+  .parent .child .box2 .two .twoB {
+    border: 0.8px solid #37014F;
+    width: 50%;
+    height: 90px;
+    border-radius: 6px;
+  }
+  .parent .child .box2 .two p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .parent .child .box2 #payButton {
+    width: 120%;
+    height: 66px;
+    background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+    margin-left: -30%;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+  }
+}
+@media (max-width: 385px) {
+  .parent {
+    border: thin solid #37014F;
+    width: 100%;
+    height: 1024px;
+    background-color: #37014F;
+  }
+  .parent .child {
+    margin: 150px auto;
+    border: thin solid white;
+    background-color: white;
+    width: 98%;
+    height: 578px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .parent .child .box1 {
+    width: 60%;
+    height: inherit;
+    background-color: #D9CFDD;
+    border-radius: inherit;
+    border: thin solid #D9CFDD;
+  }
+  .parent .child .box1 .details {
+    width: 100%;
+    border: thin solid rgba(217, 207, 221, 0);
+    margin-top: 50px;
+    line-height: 60px;
+  }
+  .parent .child .box1 .details .pay {
+    color: #37014F;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .parent .child .box1 .details hr {
+    border: thin solid rgba(56, 1, 79, 0.662745098);
+    width: 50%;
+  }
+  .parent .child .box1 .details span {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 2%;
+  }
+  .parent .child .box1 .details span #myicon {
+    display: none;
+  }
+  .parent .child .box2 {
+    width: 100%;
+  }
+  .parent .child .box2 .box2a {
+    margin-left: -20%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+  }
+  .parent .child .box2 .box2a img {
+    width: 35px;
+    height: 38px;
+  }
+  .parent .child .box2 .box2a .daniel {
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 20%;
+    width: 100%;
+  }
+  .parent .child .box2 .box2a .daniel strong {
+    color: #37014F;
+  }
+  .parent .child .box2 .enter {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 85px;
+  }
+  .parent .child .box2 .card {
+    border: 0.8px solid #37014F;
+    width: 110%;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: -20%;
+    margin-top: 40px;
+  }
+  .parent .child .box2 .card .cardNumber {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .parent .child .box2 .card .zero {
+    font-size: 10px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  .parent .child .box2 .two {
+    width: 120%;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: -20%;
+    margin-top: 40px;
+    display: flex;
+    gap: 10%;
+  }
+  .parent .child .box2 .two .twoA {
+    border: 0.8px solid #37014F;
+    width: 40%;
+    height: 90px;
+    border-radius: 6px;
+  }
+  .parent .child .box2 .two .twoB {
+    border: 0.8px solid #37014F;
+    width: 40%;
+    height: 90px;
+    border-radius: 6px;
+  }
+  .parent .child .box2 .two p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .parent .child .box2 #payButton {
+    width: 110%;
+    height: 66px;
+    background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+    margin-left: -20%;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+  }
+}

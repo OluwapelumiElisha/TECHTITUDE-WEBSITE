@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BR Firma", sans-serif;
+}
+
+.section1 {
+  width: 100%;
+  background-color: #F0C20C;
+  height: 212px;
+  border: thin solid #F0C20C;
+}
+.section1 .logoHolder {
+  width: 80%;
+  margin: 78px auto;
+}
+
+.section2 {
+  width: 100%;
+  height: 1464px;
+  background-color: #37014F;
+}
+.section2 div {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  padding-top: 20px;
+}
+.section2 h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+.section2 p {
+  color: #37014F;
+  width: 320px;
+  height: 52px;
+  background-color: #F0C20C;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 12px;
+  border-radius: 10px;
+}
+.section2 #formAcedemy {
+  margin-top: 30px;
+}
+.section2 #formAcedemy label {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.section2 #formAcedemy input {
+  width: 100%;
+  padding: 12px;
+  border: thin solid #F0C20C;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+.section2 #formAcedemy .CoursesInt {
+  width: 100%;
+  height: 220px;
+  background: white;
+  border-radius: 6px;
+  text-align: left;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+.section2 #formAcedemy .CoursesInt #business {
+  margin-left: -47%;
+  margin-bottom: 0;
+}
+.section2 #formAcedemy .CoursesInt #COURSE {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: -47%;
+}
+.section2 #formAcedemy .Hearing {
+  width: 100%;
+  height: 220px;
+  background: white;
+  border-radius: 6px;
+  text-align: left;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+.section2 #formAcedemy .Hearing #about {
+  margin-left: -47%;
+  margin-bottom: 0;
+}
+.section2 #formAcedemy .Hearing #Hear {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: -47%;
+}
+.section2 #formAcedemy #but {
+  width: 139px;
+  height: 37px;
+  border-radius: 6px;
+  background-color: #F0C20C;
+  border: none;
+  font-size: 18px;
+  color: #37014F;
+  font-weight: 700;
+}
+
+@media (max-width: 588px) {
+  .section2 {
+    width: 100%;
+    height: 1494px;
+    background-color: #37014F;
+  }
+  .section2 div {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .section2 h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+  }
+  .section2 p {
+    color: #37014F;
+    width: 215px;
+    height: 36px;
+    background-color: #F0C20C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 12px;
+    border-radius: 6px;
+  }
+  .section2 #formAcedemy {
+    margin-top: 30px;
+  }
+  .section2 #formAcedemy label {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .section2 #formAcedemy input {
+    width: 100%;
+    padding: 12px;
+    border: thin solid #F0C20C;
+    border-radius: 6px;
+    margin-bottom: 40px;
+  }
+  .section2 #formAcedemy .CoursesInt {
+    width: 100%;
+    height: 220px;
+    background: white;
+    border-radius: 6px;
+    text-align: left;
+    line-height: 45px;
+    margin-bottom: 40px;
+  }
+  .section2 #formAcedemy .CoursesInt #business {
+    margin-left: -47%;
+    margin-bottom: 0;
+  }
+  .section2 #formAcedemy .CoursesInt #COURSE {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -47%;
+  }
+  .section2 #formAcedemy .Hearing {
+    width: 100%;
+    height: 220px;
+    background: white;
+    border-radius: 6px;
+    text-align: left;
+    line-height: 45px;
+    margin-bottom: 40px;
+  }
+  .section2 #formAcedemy .Hearing #about {
+    margin-left: -47%;
+    margin-bottom: 0;
+  }
+  .section2 #formAcedemy .Hearing #Hear {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -47%;
+  }
+  .section2 #formAcedemy #but {
+    width: 87px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #F0C20C;
+    border: none;
+    font-size: 18px;
+    color: #37014F;
+    font-weight: 700;
+  }
+}

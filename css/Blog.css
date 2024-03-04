@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BR Firma", sans-serif;
+}
+
+header {
+  width: 100%;
+  border: thin solid #D9CFDD;
+  background-color: #D9CFDD;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+header nav img {
+  width: 60px;
+  height: 66px;
+  margin-top: -10px;
+}
+header nav ul {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  list-style-type: none;
+  align-items: center;
+  cursor: pointer;
+}
+header nav ul li {
+  font-size: 16px;
+  color: #333333;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+header nav ul li img {
+  width: 18px;
+  height: 13px;
+  margin-top: -3px;
+}
+header nav ul li button {
+  background-color: #37014F;
+  border: none;
+  border-radius: 6px;
+  padding: 9px;
+  color: white;
+}
+header nav #menu {
+  display: none;
+  margin-top: 10px;
+  width: 50px;
+  height: 30px;
+}
+
+.parent {
+  width: 100%;
+  height: 1000px;
+  border: thin solid white;
+}
+.parent .section1 {
+  margin: auto;
+  width: 80%;
+  border: thin solid white;
+  text-align: center;
+}
+.parent .section1 .Diary {
+  width: 213px;
+  height: 36px;
+  margin: auto;
+  background-color: #37014F;
+  color: white;
+  margin-top: 33px;
+  text-align: center;
+  padding-top: 10px;
+}
+.parent .section1 .how {
+  margin: auto;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50.49px;
+  width: 616px;
+  height: 100px;
+  margin-top: 33px;
+}
+.parent .section1 .date {
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 33px;
+  color: rgba(51, 51, 51, 0.5019607843);
+}
+.parent .section1 .rectangle {
+  width: 100%;
+  height: 429px;
+  margin: auto;
+  background-color: #D9CFDD;
+  margin-top: 30px;
+}
+.parent .section1 .note {
+  margin: auto;
+  text-align: justify;
+  font-size: 18px;
+  width: 90%;
+  margin-top: 30px;
+  border: thin solid white;
+}
+.parent .section2 {
+  width: 100%;
+  background-color: #D9CFDD;
+  border: thin solid #D9CFDD;
+}
+.parent .section2 .details {
+  width: 80%;
+  margin: auto;
+  border: thin solid #D9CFDD;
+  margin-top: 20px;
+}
+.parent .section2 .details .relate {
+  font-size: 20px;
+  color: #37014F;
+  font-weight: 400;
+}
+.parent .section2 .details hr {
+  margin-top: 20px;
+  border: thin solid #37014F;
+}
+.parent .section2 .details .stories {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
+  padding-bottom: 25px;
+  border: thin solid #D9CFDD;
+}
+.parent .section2 .details .stories .box {
+  width: 80%;
+}
+.parent .section2 .details .stories .box .start {
+  font-size: 24px;
+  font-weight: 700;
+}
+.parent .section2 .details .stories .box .startDate {
+  color: rgba(51, 51, 51, 0.5019607843);
+  font-size: 14px;
+  font-weight: 400;
+}
+.parent .section2 .details .comment {
+  color: #37014F;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.parent .section2 .details .field {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 0.5019607843);
+}
+.parent .section2 .details .namess {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 7px;
+}
+.parent .section2 .details .namess .box2 {
+  width: 100%;
+}
+.parent .section2 .details .namess .box2 #fullName {
+  width: 90%;
+  height: 40px;
+  border-radius: 3px;
+  border: thin solid #37014F;
+  padding-left: 8px;
+}
+.parent .section2 .details .namess .box3 {
+  width: 100%;
+}
+.parent .section2 .details .namess .box3 #emailAddress {
+  width: 85%;
+  height: 40px;
+  border-radius: 3px;
+  border: thin solid #37014F;
+  padding-left: 8px;
+}
+.parent .section2 .details .text1 {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+.parent .section2 .details .text1 #textarea {
+  width: 100%;
+  padding-left: -90px;
+  margin-top: 15px;
+  height: 104px;
+  border-radius: 6px;
+  border: thin solid #37014F;
+}
+.parent .section2 .details .text1 #post {
+  background-color: #F0C20C;
+  width: 142px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  top: 60%;
+  right: 1%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #37014F;
+  position: absolute;
+}
+
+@media (max-width: 1115px) {
+  header nav {
+    width: 90%;
+  }
+  header ul {
+    gap: 15px;
+  }
+  header ul li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1050px) {
+  header nav {
+    width: 90%;
+  }
+  header nav ul {
+    gap: 10px;
+  }
+  header nav ul li button {
+    padding: 7px;
+  }
+}
+@media (max-width: 975px) {
+  header nav {
+    width: 90%;
+  }
+  header nav ul {
+    gap: 9px;
+    display: none;
+  }
+  header nav ul li button {
+    padding: 4px;
+  }
+  header nav #menu {
+    display: block;
+  }
+}
+@media (max-width: 814px) {
+  .parent {
+    width: 100%;
+    height: 1000px;
+    border: thin solid white;
+  }
+  .parent .section1 {
+    margin: auto;
+    width: 80%;
+    border: thin solid white;
+    text-align: center;
+  }
+  .parent .section1 .Diary {
+    width: 213px;
+    height: 36px;
+    margin: auto;
+    background-color: #37014F;
+    color: white;
+    margin-top: 33px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .parent .section1 .how {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30.49px;
+    width: 80%;
+    height: 120px;
+    margin-top: 33px;
+  }
+  .parent .section1 .date {
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 33px;
+    color: rgba(51, 51, 51, 0.5019607843);
+  }
+  .parent .section1 .rectangle {
+    width: 100%;
+    height: 429px;
+    margin: auto;
+    background-color: #D9CFDD;
+    margin-top: 30px;
+  }
+  .parent .section1 .note {
+    margin: auto;
+    text-align: justify;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 30px;
+    border: thin solid white;
+  }
+  .parent .section2 {
+    width: 100%;
+    background-color: #D9CFDD;
+    border: thin solid #D9CFDD;
+  }
+  .parent .section2 .details {
+    width: 80%;
+    margin: auto;
+    border: thin solid #D9CFDD;
+    margin-top: 20px;
+  }
+  .parent .section2 .details .relate {
+    font-size: 20px;
+    color: #37014F;
+    font-weight: 400;
+  }
+  .parent .section2 .details hr {
+    margin-top: 20px;
+    border: thin solid #37014F;
+  }
+  .parent .section2 .details .stories {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    border: thin solid #D9CFDD;
+  }
+  .parent .section2 .details .stories .box {
+    width: 100%;
+    height: 90px;
+  }
+  .parent .section2 .details .stories .box .start {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .parent .section2 .details .stories .box .startDate {
+    color: rgba(51, 51, 51, 0.5019607843);
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .parent .section2 .details .comment {
+    color: #37014F;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .parent .section2 .details .field {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 0.5019607843);
+  }
+  .parent .section2 .details .namess {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 7px;
+  }
+  .parent .section2 .details .namess .box2 {
+    width: 100%;
+  }
+  .parent .section2 .details .namess .box2 #fullName {
+    width: 90%;
+    height: 40px;
+    border-radius: 3px;
+    border: thin solid #37014F;
+    padding-left: 8px;
+  }
+  .parent .section2 .details .namess .box3 {
+    width: 100%;
+  }
+  .parent .section2 .details .namess .box3 #emailAddress {
+    width: 85%;
+    height: 40px;
+    border-radius: 3px;
+    border: thin solid #37014F;
+    padding-left: 8px;
+  }
+  .parent .section2 .details .text1 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+  .parent .section2 .details .text1 #textarea {
+    width: 100%;
+    padding-left: -90px;
+    margin-top: 15px;
+    height: 104px;
+    border-radius: 6px;
+    border: thin solid #37014F;
+  }
+  .parent .section2 .details .text1 #post {
+    background-color: #F0C20C;
+    width: 102px;
+    height: 25px;
+    border: none;
+    border-radius: 6px;
+    top: 70%;
+    right: 1%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #37014F;
+    position: absolute;
+  }
+}

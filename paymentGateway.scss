@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BR Firma', sans-serif;
+}
+
+// first section
+.parent{
+    border: thin solid #37014F;
+    width: 100%;
+    // height: 1024px;
+    // padding-bottom: 400px;
+    background-color: #37014F;
+    .child{
+       margin:150px auto;
+       border: thin solid white;
+       background-color: white;
+       width: 70%;
+       height: 578px;
+       border-radius: 8px;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr;
+       .box1{
+        width: 60%;
+        height: inherit;
+        background-color: #D9CFDD;
+        border-radius: inherit;
+        border: thin solid #D9CFDD;
+        .details{
+          width: 100%;
+          border: thin solid #d9cfdd00;
+          margin-left: 30px;
+          margin-top: 50px;
+          line-height: 80px;
+          .pay{
+            color: #37014F;
+            font-size: 20px;
+            font-weight: 700;
+            // line-height: 300px;
+          }
+          hr{
+            border: thin solid #38014fa9;
+            width: 80%;
+          }
+          span{
+            color: #333333;
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 15px;
+          }
+        }
+       }
+       .box2{
+        width: 100%;
+        .box2a{
+            margin-left: -30%;
+            margin-top: 50px;
+            display: grid;   
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            width: 100%;
+            // border: thin solid black;
+            img{
+                width: 55px;
+                height: 58px;
+            }
+            .daniel{
+                font-weight:500;
+                font-size: 20px;
+                margin-left: 35%;
+                width: 100%;
+                strong{
+                    color: #37014F;
+                }
+            }
+        }
+        .enter{
+            font-size: 22px;
+            font-weight: 500;
+            color: #333333;
+            margin-top: 85px;
+            margin-left: -5%;
+        }
+        .card{
+            border: 0.8px solid #37014F;
+            width: 120%;
+            height: 90px;
+            border-radius: 6px;
+            margin-left: -30%;
+            margin-top: 40px;
+            .cardNumber{
+                font-size: 16px;
+                font-weight: 500;
+                color: #333333;
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+            .zero{
+                font-size: 22px;
+                font-weight: 500;
+                color: #333333;
+                padding-left: 20px;
+                padding-top: 15px;
+                border: thin solid white ;
+                background-color: rgba(255, 255, 255, 0);
+            }
+            .zero:focus{
+                outline: none;
+            }
+
+        }
+        .two{
+            // border: 0.8px solid #37014F;
+            width: 120%;
+            height: 90px;
+            border-radius: 6px;
+            margin-left: -30%;
+            margin-top: 40px;
+            display: flex;
+            gap: 10%;
+
+            .twoA{
+                border: 0.8px solid #37014F;
+                width: 50%;
+                height: 90px;
+                border-radius: 6px;
+                .zero{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 20px;
+                    padding-top: 15px;
+                    border: none;
+                    width: 100%;
+                    background-color: rgba(255, 255, 255, 0);
+                }
+                .zero:focus{
+                    outline: none;
+                }
+            }
+            .twoB{
+                border: 0.8px solid #37014F;
+                width: 50%;
+                height: 90px;
+                border-radius: 6px;
+                .zero{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 20px;
+                    padding-top: 15px;
+                    border: none ;
+                    width: 100% ;
+                }
+                .zero:focus{
+                    outline: none;
+                }
+            }
+            p{
+                font-size: 16px;
+                font-weight: 500;
+                color: #333333;
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+
+        }
+        #payButton{
+            width: 120%;
+            height: 66px;
+            background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+            margin-left: -30%;
+            margin-top: 15px;
+            border-radius: 6px;
+            border: none;
+            color: white;
+        }
+
+
+       }
+
+    }
+    .secure{
+        margin: auto;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+        background-color: #37014F;
+        .paysta{
+            font-size: 18px;
+            font-weight: 700;
+            // font-style: italic;
+            color: white;
+          
+            strong{
+                font-size: 20px;
+                // line-height: 40px;
+                font-weight: 900;
+                color: white;
+            }
+        }
+        .also{
+            font-size: 18px;
+            font-weight: 500;
+            font-style: italic;
+            color: white;
+            line-height: 25px;
+        }
+    }
+}
+
+@media(max-width:863px){
+    .parent{
+        border: thin solid #37014F;
+        width: 100%;
+        height: 1024px;
+        background-color: #37014F;
+        .child{
+           margin:150px auto;
+           border: thin solid white;
+           background-color: white;
+           width: 98%;
+           height: 578px;
+           border-radius: 8px;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr;
+           .box1{
+            width: 60%;
+            height: inherit;
+            background-color: #D9CFDD;
+            border-radius: inherit;
+            border: thin solid #D9CFDD;
+            .details{
+              width: 100%;
+              border: thin solid #d9cfdd00;
+              margin-left: 10px;
+              margin-top: 50px;
+              line-height: 80px;
+              .pay{
+                color: #37014F;
+                font-size: 20px;
+                font-weight: 700;
+                // line-height: 300px;
+              }
+              hr{
+                border: thin solid #38014fa9;
+                width: 80%;
+              }
+              span{
+                color: #333333;
+                font-size: 20px;
+                font-weight: 700;
+                padding-left: 5%;
+              }
+            }
+           }
+           .box2{
+            width: 100%;
+            .box2a{
+                margin-left: -30%;
+                margin-top: 50px;
+                display: grid;   
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                width: 100%;
+                // border: thin solid black;
+                img{
+                    width: 55px;
+                    height: 58px;
+                }
+                .daniel{
+                    font-weight:500;
+                    font-size: 20px;
+                    margin-left: 35%;
+                    width: 100%;
+                    strong{
+                        color: #37014F;
+                    }
+                }
+            }
+            .enter{
+                font-size: 22px;
+                font-weight: 500;
+                color: #333333;
+                margin-top: 85px;
+                margin-left: -5%;
+            }
+            .card{
+                border: 0.8px solid #37014F;
+                width: 120%;
+                height: 90px;
+                border-radius: 6px;
+                margin-left: -30%;
+                margin-top: 40px;
+                .cardNumber{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+                .zero{
+                    font-size: 22px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 20px;
+                    padding-top: 15px;
+                }
+    
+            }
+            .two{
+                // border: 0.8px solid #37014F;
+                width: 120%;
+                height: 90px;
+                border-radius: 6px;
+                margin-left: -30%;
+                margin-top: 40px;
+                display: flex;
+                gap: 10%;
+    
+                .twoA{
+                    border: 0.8px solid #37014F;
+                    width: 50%;
+                    height: 90px;
+                    border-radius: 6px;
+                  
+                }
+                .twoB{
+                    border: 0.8px solid #37014F;
+                    width: 50%;
+                    height: 90px;
+                    border-radius: 6px;
+                    
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+            }
+            #payButton{
+                width: 120%;
+                height: 66px;
+                background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+                margin-left: -30%;
+                margin-top: 15px;
+                border-radius: 6px;
+                border: none;
+                color: white;
+            }
+    
+    
+           }
+    
+        }
+    }
+}
+@media(max-width:595px){
+        .parent{
+            border: thin solid #37014F;
+            width: 100%;
+            height: 1024px;
+            background-color: #37014F;
+            .child{
+               margin:150px auto;
+               border: thin solid white;
+               background-color: white;
+               width: 98%;
+               height: 578px;
+               border-radius: 8px;
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+               grid-template-rows: 1fr;
+               .box1{
+                width: 50%;
+                height: inherit;
+                background-color: #D9CFDD;
+                border-radius: inherit;
+                border: thin solid #D9CFDD;
+                .details{
+                  width: 100%;
+                  border: thin solid #d9cfdd00;
+                //   margin-left: 5px;
+                  margin-top: 50px;
+                  line-height: 60px;
+                  .pay{
+                    color: #37014F;
+                    font-size: 20px;
+                    font-weight: 700;
+                    // line-height: 300px;
+                  }
+                  hr{
+                    border: thin solid #38014fa9;
+                    width: 50%;
+                  }
+                  span{
+                    color: #333333;
+                    font-size: 12px;
+                    font-weight: 700;
+                    padding-left: 2%;
+                    #myicon{
+                        display: none;
+                    }
+                  }
+                }
+               }
+               .box2{
+                width: 100%;
+                .box2a{
+                    margin-left: -30%;
+                    margin-top: 50px;
+                    display: grid;   
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr;
+                    width: 100%;
+                    // border: thin solid black;
+                    img{
+                        width: 45px;
+                        height: 48px;
+                    }
+                    .daniel{
+                        font-weight:500;
+                        font-size: 12px;
+                        margin-left: 20%;
+                        width: 100%;
+                        strong{
+                            color: #37014F;
+                        }
+                    }
+                }
+                .enter{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #333333;
+                    margin-top: 85px;
+                    // margin-left: -;
+                }
+                .card{
+                    border: 0.8px solid #37014F;
+                    width: 120%;
+                    height: 90px;
+                    border-radius: 6px;
+                    margin-left: -30%;
+                    margin-top: 40px;
+                    .cardNumber{
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: #333333;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                    }
+                    .zero{
+                        font-size: 10px;
+                        font-weight: 500;
+                        color: #333333;
+                        padding-left: 20px;
+                        padding-top: 15px;
+                    }
+        
+                }
+                .two{
+                    // border: 0.8px solid #37014F;
+                    width: 120%;
+                    height: 90px;
+                    border-radius: 6px;
+                    margin-left: -30%;
+                    margin-top: 40px;
+                    display: flex;
+                    gap: 10%;
+        
+                    .twoA{
+                        border: 0.8px solid #37014F;
+                        width: 50%;
+                        height: 90px;
+                        border-radius: 6px;
+                      
+                    }
+                    .twoB{
+                        border: 0.8px solid #37014F;
+                        width: 50%;
+                        height: 90px;
+                        border-radius: 6px;
+                        
+                    }
+                    p{
+                        font-size: 10px;
+                        font-weight: 500;
+                        color: #333333;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                    }
+                }
+                #payButton{
+                    width: 120%;
+                    height: 66px;
+                    background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+                    margin-left: -30%;
+                    margin-top: 15px;
+                    border-radius: 6px;
+                    border: none;
+                    color: white;
+                }
+        
+        
+               }
+        
+            }
+        }
+    
+}
+@media(max-width:385px){
+    .parent{
+        border: thin solid #37014F;
+        width: 100%;
+        height: 1024px;
+        background-color: #37014F;
+        .child{
+           margin:150px auto;
+           border: thin solid white;
+           background-color: white;
+           width: 98%;
+           height: 578px;
+           border-radius: 8px;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr;
+           .box1{
+            width: 60%;
+            height: inherit;
+            background-color: #D9CFDD;
+            border-radius: inherit;
+            border: thin solid #D9CFDD;
+            .details{
+              width: 100%;
+              border: thin solid #d9cfdd00;
+            //   margin-left: 5px;
+              margin-top: 50px;
+              line-height: 60px;
+              .pay{
+                color: #37014F;
+                font-size: 20px;
+                font-weight: 700;
+                // line-height: 300px;
+              }
+              hr{
+                border: thin solid #38014fa9;
+                width: 50%;
+              }
+              span{
+                color: #333333;
+                font-size: 12px;
+                font-weight: 700;
+                padding-left: 2%;
+                #myicon{
+                    display: none;
+                }
+              }
+            }
+           }
+           .box2{
+            width: 100%;
+            .box2a{
+                margin-left: -20%;
+                margin-top: 50px;
+                display: grid;   
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                width: 100%;
+                // border: thin solid black;
+                img{
+                    width: 35px;
+                    height: 38px;
+                }
+                .daniel{
+                    font-weight:500;
+                    font-size: 12px;
+                    margin-left: 20%;
+                    width: 100%;
+                    strong{
+                        color: #37014F;
+                    }
+                }
+            }
+            .enter{
+                font-size: 18px;
+                font-weight: 500;
+                color: #333333;
+                margin-top: 85px;
+                // margin-left: -;
+            }
+            .card{
+                border: 0.8px solid #37014F;
+                width: 110%;
+                height: 90px;
+                border-radius: 6px;
+                margin-left: -20%;
+                margin-top: 40px;
+                .cardNumber{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+                .zero{
+                    font-size: 10px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 20px;
+                    padding-top: 15px;
+                }
+    
+            }
+            .two{
+                // border: 0.8px solid #37014F;
+                width: 120%;
+                height: 90px;
+                border-radius: 6px;
+                margin-left: -20%;
+                margin-top: 40px;
+                display: flex;
+                gap: 10%;
+    
+                .twoA{
+                    border: 0.8px solid #37014F;
+                    width: 40%;
+                    height: 90px;
+                    border-radius: 6px;
+                  
+                }
+                .twoB{
+                    border: 0.8px solid #37014F;
+                    width: 40%;
+                    height: 90px;
+                    border-radius: 6px;
+                    
+                }
+                p{
+                    font-size: 10px;
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 10px;
+                    padding-top: 20px;
+                }
+            }
+            #payButton{
+                width: 110%;
+                height: 66px;
+                background-image: linear-gradient(274.67deg, #805CA5 54.08%, #4F92CE 122.01%);
+                margin-left: -20%;
+                margin-top: 15px;
+                border-radius: 6px;
+                border: none;
+                color: white;
+            }
+    
+    
+           }
+    
+        }
+    }
+
+}
